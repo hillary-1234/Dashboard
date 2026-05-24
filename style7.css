@@ -3,6 +3,43 @@ body {
 
 }
 
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    margin: 20px 20px 0;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #ffffff, #e9f8ef);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.page-header__title h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+    color: #1b4332;
+}
+
+.page-header__title p {
+    margin: 6px 0 0;
+    color: #2f5d4f;
+    font-size: 1rem;
+}
+
+.page-header__meta {
+    display: flex;
+    gap: 12px;
+    color: #406e5b;
+    font-weight: 600;
+}
+
+.page-header__meta span {
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(64, 110, 91, 0.12);
+}
+
 .Scoreboard {
     display: flex;
     gap: 15px;           /* space between the 3 items */
